@@ -1,0 +1,1 @@
+const n=document.querySelectorAll('.pipeline b');let i=0;setInterval(()=>{n.forEach(x=>x.style.borderColor='#334155');n[i].style.borderColor='#60a5fa';i=(i+1)%n.length},800);
